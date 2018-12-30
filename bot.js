@@ -7,7 +7,7 @@ const client5 = new Discord.Client();
 
 client1.on('ready', () => {var x = client1.channels.get(process.env.ROOM_ID1);if (x) x.join();});
 
-client2.on('ready', () => {var x = client3.channels.get(process.env.ROOM_ID2);if (x) x.join();});
+client2.on('ready', () => {var x = client2.channels.get(process.env.ROOM_ID2);if (x) x.join();});
 
 client3.on('ready', () => {var x = client3.channels.get(process.env.ROOM_ID3);if (x) x.join();});
 
